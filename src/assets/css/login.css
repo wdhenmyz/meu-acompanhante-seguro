@@ -11,7 +11,7 @@ h3 {
 }
 
 h1 {
-    font-size: 47px ;
+    font-size: 40px ;
 }
 
 p {
@@ -94,7 +94,13 @@ section{
 }
 
 #area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     margin-bottom: 50px;
+    width: 300px;
+    height: 200px;
+    border-radius: 15px;
 }
 
 #area_de_login {
@@ -251,7 +257,15 @@ footer {
     color: #6ce5f5;
 }
 
+.dark #area {
+    background-color: #02345e;
+}
+
 .dark #area_de_login {
+    background-color: #02345e;
+}
+
+.dark #area_de_login_2 {
     background-color: #02345e;
 }
 

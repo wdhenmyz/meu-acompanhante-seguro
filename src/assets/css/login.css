@@ -93,20 +93,42 @@ section{
     flex-direction: row;
 }
 
+#area {
+    margin-bottom: 50px;
+}
+
 #area_de_login {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    border-radius: 15px;
-    border: 1px solid #006ac0;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border: 1px solid #21B9FF;
     width: 600px;
     height: 600px;
-    background-color: #6ab2ec;
+    background-color: #4cc4fc4b;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     padding: 1px;
     margin-bottom: 32px;
 }
+
+#area_de_login_2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border: 1px solid #21B9FF;
+    width: 600px;
+    height: 600px;
+    background-color: #4cc4fc4b;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 1px;
+    margin-bottom: 32px;
+}
+
 
 .descricao {
     text-align: center;

@@ -88,6 +88,11 @@ button:hover {
     transition: 1s;
 }
 
+section{
+    display: flex;
+    flex-direction: row;
+}
+
 #area_de_login {
     display: flex;
     flex-direction: column;

@@ -103,6 +103,10 @@ button:hover {
     margin-bottom: 32px;
 }
 
+.descricao {
+    text-align: center;
+}
+
 .input-group {
     margin: 15px 0;
 }

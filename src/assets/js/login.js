@@ -26,7 +26,7 @@ function aumentarTamanho() {
 
 // Função para diminuir o tamanho da letra
 function diminuirTamanho() {
-    if (contador > 0) {
+    if (contador >= 0) {
         const corpo = document.getElementById('corpo');
         const estilo = window.getComputedStyle(corpo, null).getPropertyValue('font-size');
         const tamanhoAtual = parseFloat(estilo);

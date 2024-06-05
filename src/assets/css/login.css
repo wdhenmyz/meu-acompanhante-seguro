@@ -7,15 +7,15 @@ body {
 h3 {
     font-style: normal;
     font-weight: 800;
-    font-size: 1.5em;
+    font-size: 1.6em;
 }
 
 h1 {
-    font-size: 1.9em ;
+    font-size: 2.9em ;
 }
 
 p {
-    font-size: 1.3em;
+    font-size: 1.6em;
 }
 
 #corpo {
@@ -59,8 +59,10 @@ p {
 }
 
 #cruz {
-    width: 120px;
-    height: 120px;
+    width: 60px;
+    height: 60px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 #nav-direita {
@@ -79,6 +81,7 @@ button[type="button"] {
     border-radius: 5px;
     cursor: pointer;
     margin-left: 180px;
+    margin-right: 20px;
     transition: 1s;
 }
 
@@ -143,7 +146,8 @@ section{
 
 
 #cruz2 {
-    width: 400px;
+    width: 300px;
+    margin: 20px;
 }
 
 

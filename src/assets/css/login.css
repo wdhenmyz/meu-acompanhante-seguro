@@ -254,6 +254,10 @@ footer {
     background-color: white;
 }
 
+.dark #corpo {
+    background-image: url(../images/fundo-projeto-2.png);
+}
+
 .dark #topo {
     background-color: #02345e;
     transition: .5s;

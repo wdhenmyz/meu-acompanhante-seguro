@@ -12,7 +12,6 @@ let contador = 0
 // Função para aumentar o tamanho da letra
 function aumentarTamanho() {
     if (contador < 1 ) {
-        
         const corpo = document.getElementById('corpo');
         const estilo = window.getComputedStyle(corpo, null).getPropertyValue('font-size');
         const tamanhoAtual = parseFloat(estilo);

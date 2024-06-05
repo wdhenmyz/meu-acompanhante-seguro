@@ -7,20 +7,33 @@ trilho.addEventListener('click', () => {
     body.classList.toggle('dark')
 })
 
-
+let contador = 0
 
 // Função para aumentar o tamanho da letra
 function aumentarTamanho() {
-    const corpo = document.getElementById('corpo');
-    const estilo = window.getComputedStyle(corpo, null).getPropertyValue('font-size');
-    const tamanhoAtual = parseFloat(estilo);
-    corpo.style.fontSize = (tamanhoAtual + 2) + 'px';
-}
+    if (contador < 1 ) {
+        
+        const corpo = document.getElementById('corpo');
+        const estilo = window.getComputedStyle(corpo, null).getPropertyValue('font-size');
+        const tamanhoAtual = parseFloat(estilo);
+        corpo.style.fontSize = (tamanhoAtual + 3) + 'px';
+      
+        contador++
+    }
+
+    console.log(contador);
+    }
 
 // Função para diminuir o tamanho da letra
 function diminuirTamanho() {
-    const corpo = document.getElementById('corpo');
-    const estilo = window.getComputedStyle(corpo, null).getPropertyValue('font-size');
-    const tamanhoAtual = parseFloat(estilo);
-    corpo.style.fontSize = (tamanhoAtual - 2) + 'px';
+    if (contador > 0) {
+        const corpo = document.getElementById('corpo');
+        const estilo = window.getComputedStyle(corpo, null).getPropertyValue('font-size');
+        const tamanhoAtual = parseFloat(estilo);
+        corpo.style.fontSize = (tamanhoAtual - 3) + 'px';
+
+        contador--
+    }
+
+    console.log(contador)
 }

@@ -27,6 +27,7 @@ p {
     width: 1440px;
     height: 1300px;
     background-image: url(../images/fundo-projeto.jpg);
+    margin-left: 450px;
 }
 
 #topo {

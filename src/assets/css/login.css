@@ -28,6 +28,8 @@ p {
     height: 100%;
     background-image: url(../images/fundo-projeto.jpg);
     margin-left: 450px;
+    background-size: cover;
+    background-position: center;
 }
 
 #topo {

@@ -7,15 +7,15 @@ body {
 h3 {
     font-style: normal;
     font-weight: 800;
-    font-size: 30px;
+    font-size: 1.5em;
 }
 
 h1 {
-    font-size: 40px ;
+    font-size: 1.9em ;
 }
 
 p {
-    font-size: 25px;
+    font-size: 1.3em;
 }
 
 #corpo {
@@ -90,15 +90,18 @@ button:hover {
 section{
     display: flex;
     flex-direction: row;
+    width: 1200px;
+    height: 600px;
+    margin-bottom: 32px;
 }
 
 #area {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 50px;
+    margin-bottom: 32px;
     width: 300px;
-    height: 200px;
+    height: 150px;
     border-radius: 15px;
 }
 

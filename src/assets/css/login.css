@@ -3,7 +3,7 @@ body {
     flex-direction: column;
     align-items: center;
     width: 1440px;
-    height: 1300px;
+    height: 1200px;
 }
 
 h3 {
@@ -24,8 +24,8 @@ p {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 1440px;
-    height: 1300px;
+    width: 100%;
+    height: 100%;
     background-image: url(../images/fundo-projeto.jpg);
     margin-left: 450px;
 }

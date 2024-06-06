@@ -10,9 +10,31 @@ body {
 
 #menu {
     display: flex;
+    flex-direction: row;
     width: 1440px;
     height: 70px;
-    background-image: url(../images/fundo-menu.png) ;  
+    background-image: url(../images/fundo-menu.png);  
+    flex-direction: row; 
+    justify-content: space-between; 
+    border: 1px solid #D4E9E2;
+    font-size: 12px;
+}
+
+
+#img-cruz{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid red;
+}
+
+#cruz {
+    display: flex;
+    border: 1px solid red;
+
+}
+#nome-hospital {
+    display: flex;
+
 }
 
 #video {

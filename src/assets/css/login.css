@@ -348,7 +348,7 @@ footer {
         display: flex;
         flex-direction: row;
         align-items: center;
-        width: 300px;
+        width: 400px;
     }
     
     #cruz {
@@ -391,8 +391,7 @@ footer {
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        border-bottom-left-radius: 15px;
-        border-bottom-right-radius: 15px;
+        border-radius: 15px;
         border: 1px solid #21B9FF;
         width: 450px;
         height: 450px;
@@ -421,8 +420,7 @@ footer {
         flex-direction: column;
         align-items: center;
         justify-content: flex-start;
-        border-top-left-radius: 15px;
-        border-top-right-radius: 15px;
+        border-radius: 15px;
         border: 1px solid #21B9FF;
         width: 450px;
         height: 460px;

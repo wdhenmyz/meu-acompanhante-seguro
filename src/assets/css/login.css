@@ -51,6 +51,7 @@ p {
     cursor: pointer;
     margin: 1px;
     margin-left: 2px;
+    transition: 1s;
 }
 
 #nav-esquerda {

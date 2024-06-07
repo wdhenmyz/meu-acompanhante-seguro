@@ -111,6 +111,7 @@ section{
     width: 300px;
     height: 150px;
     border-radius: 15px;
+    transition: .5s;
 }
 
 #area_de_login {
@@ -127,6 +128,7 @@ section{
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     padding: 1px;
     margin-bottom: 32px;
+    transition: .5s;
 }
 
 .checkbox {
@@ -147,6 +149,7 @@ section{
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     padding: 1px;
     margin-bottom: 32px;
+    transition: .5s;
 }
 
 
@@ -203,6 +206,7 @@ footer {
     color: #000000;
     text-align: center;
     border: 1px solid #7dd8f3;
+    transition: .5s;
 }
 
 

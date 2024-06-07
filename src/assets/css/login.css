@@ -224,7 +224,6 @@ footer {
 .trilho{
     width: 50px;
     height: 50px;
-    background-color: #4d4d4d;
     border-radius: 150px;
     position: relative;
     cursor: pointer;
@@ -240,10 +239,6 @@ footer {
     position: absolute;
     left: 0;
     transition: .5s;
-}
-
-.trilho.dark{
-    background-color: #4d4d4d;
 }
 
 .trilho.dark .indicador {

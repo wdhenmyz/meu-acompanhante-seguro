@@ -251,6 +251,18 @@ footer {
     background-color: white;
 }
 
+/*.dark body {
+    background: linear-gradient(rgba(25, 29, 26, 0), rgba(51, 53, 51, 0)), url('../images/fundo-projeto.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.dark #corpo {
+    background: linear-gradient(rgba(25, 29, 26, 0), rgba(51, 53, 51, 0)), url('../images/fundo-projeto.jpg');
+    background-size: cover;
+    background-position: center;
+}*/
+
 .dark #topo {
     background: #02345e;
     transition: .5s;

@@ -76,14 +76,15 @@ p {
 }
 
 button[type="button"] {
-    background-color: #ffffff;
-    color: rgb(38, 0, 252);
-    padding: 10px 20px;
+    padding: 10px 30px;
     border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    margin-left: 180px;
-    margin-right: 20px;
+    background: linear-gradient(45deg, #1378b3, #3da1db, #84b5d1, #50a9dd, #098fe2);
+    color: #fff;
+    font-weight: bold;
+    border-radius: 20px;
+    border-bottom: 1px solid rgb(91, 48, 248);
+    margin-left: 90px;
+    margin-right: 10px;
     transition: 1s;
 }
 

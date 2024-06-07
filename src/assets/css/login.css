@@ -293,7 +293,6 @@ footer {
         display: flex;
         flex-direction: column;
         align-items: center;
-        background-color: red;
     }
     
     h3 {
@@ -382,8 +381,8 @@ footer {
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 700px;
-        height: 600px;
+        width: 360px;
+        height: 900px;
         margin-bottom: 32px;
     }
     
@@ -406,6 +405,17 @@ footer {
     .checkbox {
         border-radius: 30px;
     }
+
+    .input-group input {
+        width: 340px;
+        height: 30px;
+        padding: 10px;
+        border: 1px solid #69C5F9;
+        border-radius: 5px;
+        border-radius: 30px;
+        background-color: #69C5F9;
+    }
+    
     
     #area_de_login_2 {
         display: flex;
@@ -416,14 +426,17 @@ footer {
         border-bottom-left-radius: 15px;
         border: 1px solid #21B9FF;
         width: 350px;
-        height: 350px;
+        height: 360px;
         background-color: #4cc4fc4b;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         padding: 1px;
         margin-bottom: 32px;
     }
 
-
+    #cruz2 {
+        width: 100px;
+    }
+    
 
 
     footer {

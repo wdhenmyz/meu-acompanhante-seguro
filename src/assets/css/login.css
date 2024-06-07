@@ -381,7 +381,7 @@ footer {
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 360px;
+        width: 560px;
         height: 900px;
         margin-bottom: 32px;
     }
@@ -394,12 +394,11 @@ footer {
         border-top-right-radius: 15px;
         border-bottom-right-radius: 15px;
         border: 1px solid #21B9FF;
-        width: 350px;
-        height: 350px;
+        width: 450px;
+        height: 450px;
         background-color: #4cc4fc4b;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         padding: 1px;
-        margin-bottom: 10px;
     }
     
     .checkbox {
@@ -423,18 +422,17 @@ footer {
         align-items: center;
         justify-content: flex-start;
         border-top-left-radius: 15px;
-        border-bottom-left-radius: 15px;
+        border-top-right-radius: 15px;
         border: 1px solid #21B9FF;
-        width: 350px;
-        height: 360px;
+        width: 450px;
+        height: 460px;
         background-color: #4cc4fc4b;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         padding: 1px;
-        margin-bottom: 20px;
     }
 
     #cruz2 {
-        width: 100px;
+        width: 150px;
     }
     
 
@@ -452,7 +450,17 @@ footer {
     .footer-content {
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
+        justify-content: baseline;
         align-items: center;
     }   
+
+    .hospital-info {
+        text-align: right;
+    }
+    
+    .senaclogo {
+        max-width: 380px;
+        margin-right: 100px;
+    }
+    
 }

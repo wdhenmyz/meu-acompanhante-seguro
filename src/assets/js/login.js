@@ -36,3 +36,16 @@ function diminuirTamanho() {
 
     console.log(contador)
 }
+
+// Seleciona todos os botões de leitura
+const botoesLer = document.querySelectorAll('.ler-button');
+
+// Adiciona evento de clique a cada botão
+botoesLer.forEach(botao => {
+    botao.addEventListener('click', () => {
+        const texto = botao.parentElement.textContent.replace('Ler em Voz Alta', '').trim(); // Obtém o texto do elemento pai do botão
+        const utterance = new SpeechSynthesisUtterance(texto); // Cria objeto SpeechSynthesisUtterance
+        speechSynthesis.speak(utterance); // Inicia a leitura do texto
+    });
+});
+

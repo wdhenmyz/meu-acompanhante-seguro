@@ -1,0 +1,45 @@
+.trilho.dark .indicador {
+    background-color: white;
+}
+
+.dark #topo {
+    background: #02345e;
+    transition: .5s;
+}
+
+.dark h3 {
+    color: #bee1e6;
+}
+
+.dark h1 {
+    color: #bee1e6;
+}
+
+.dark p {
+    color: #bee1e6;
+}
+
+.dark #area {
+    background-color: #02345e;
+}
+
+.dark #area_de_login {
+    background-color: #02345e;
+}
+
+.dark #area_de_login_2 {
+    background-color: #02345e;
+}
+
+.dark .esqueceu {
+    color: #bee1e6;
+}
+
+.dark footer {
+    background: #02345e;
+    transition: .5s;
+} 
+
+.dark .senaclogo {
+    filter: brightness(1.3);
+}

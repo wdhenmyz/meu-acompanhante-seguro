@@ -1,45 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+
     <meta charset="UTF-8">
-    <meta name="pagina inicial" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/detalhes.css">
-    <script src="./assets/js/sript.js" defer></script>
+    <script src="./assets/js/index.js" defer></script>
 
 </head>
 <body>
     <div id="imagem-fundo">
-        <div id="menu">
+        <header id="menu"> 
+            <div id="nav-esquerda">
+                <figure >
+                    <img src="./assets/images/cruz2.png" alt="" width="100" height="100">
+                </figure>
 
-        </div>
+                <h3 ><a href="#">Meu acomponhante seguro</a></h3>
+            </div>
+            <div id="nav-direita">
+                <div>
+                    <button onclick="aumentarTamanho()" class="tamanho">A+</button>
+                    <button onclick="diminuirTamanho()" class="tamanho">a-</button>
+                </div>
+                <div class="menu-button">
+                    <button type="button">Login</button>
+                </div>
+            </div>
+
+        </header>
 
         <div id="mae-titulo1">
-            <div id="img-titulo1">
+            <figure id="img-titulo1">
                 
-            </div>
+            </figure>
             <div id="txt-titulo1">
-
+                <h3>Titulo1</h3> 
+                <br>
+                <p>A segurança e a saúde de nossos pacientes e colaboradores são prioridades absolutas em nosso hospital. O uso adequado dos Equipamentos de Proteção Individual (EPIs) é fundamental para prevenir a disseminação de infecções e proteger a todos. Seguem orientações detalhadas para o uso correto dos principais EPIs em nosso ambiente hospitalar.</p>
             </div>
         </div>
 
         <div id="mae-titulo2">
-            <div id="img-titulo2">
+            <figure id="img-titulo2">
                 
-            </div>
+            </figure>
             <div id="txt-titulo2">
+                <p>
 
+                </p>
             </div>
         </div>
 
         <div id="mae-titulo3">
-            <div id="img-titulo3">
+            <figure id="img-titulo3">
                 
-            </div>
+            </figure>
             <div id="txt-titulo3">
-
+                <p></p>
             </div>
         </div>
 
@@ -47,15 +67,16 @@
 
         </div>
 
-        <div id="rodape">
-            <div id="logo-rodape">
+        <footer id="rodape">
+            <figure id="logo-rodape">
 
-            </div>
+            </figure>
             <div id="txt-rodape">
-
+                <P>
+                </P>
             </div>
 
-        </div>
+        </footer>
     </div>
 </body>
 </html>

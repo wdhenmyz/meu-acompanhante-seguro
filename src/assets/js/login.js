@@ -37,15 +37,34 @@ function diminuirTamanho() {
     console.log(contador)
 }
 
+
+let isReading = false;
 // Seleciona todos os botões de leitura
 const botoesLer = document.querySelectorAll('.ler-button');
 
 // Adiciona evento de clique a cada botão
 botoesLer.forEach(botao => {
     botao.addEventListener('click', () => {
-        const texto = botao.parentElement.textContent.replace('Ler em Voz Alta', '').trim(); // Obtém o texto do elemento pai do botão
-        const utterance = new SpeechSynthesisUtterance(texto); // Cria objeto SpeechSynthesisUtterance
-        speechSynthesis.speak(utterance); // Inicia a leitura do texto
+        if (isReading) {
+            // Para a leitura atual se já estiver lendo
+            speechSynthesis.cancel();
+            botao.textContent = 'Ler em Voz Alta';
+            isReading = false;
+        } else {
+            // Obtém o texto do elemento pai do botão
+            const texto = botao.parentElement.textContent.replace('Ler em Voz Alta', '').trim();
+            // Cria objeto SpeechSynthesisUtterance
+            const utterance = new SpeechSynthesisUtterance(texto);
+            // Adiciona evento para detectar quando a leitura termina
+            utterance.onend = () => {
+                isReading = false;
+                botao.textContent = 'Ler em Voz Alta';
+            };
+            // Inicia a leitura do texto
+            speechSynthesis.speak(utterance);
+            botao.textContent = 'Parar Leitura';
+            isReading = true;
+        }
     });
 });
 

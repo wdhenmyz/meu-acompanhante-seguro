@@ -1,5 +1,5 @@
 let trilho = document.getElementById('trilho')
-let body = document.getElementById('corpo')
+let body = document.querySelector('body')
 
 // função para modo dark
 trilho.addEventListener('click', () => {

@@ -2,8 +2,8 @@
     background-color: white;
 }
 
-.dark #corpo {
-    background-image: linear-gradient(rgb(15, 29, 28, 0.8), rgb(15, 29, 28, 0.8)), url(../images/fundo-projeto.jpg);
+body.dark {
+    background-image: url(../images/fundo-projeto-2.png);
 }
 
 .dark #topo {

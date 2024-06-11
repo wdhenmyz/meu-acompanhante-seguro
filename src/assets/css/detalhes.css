@@ -5,6 +5,14 @@ body {
     border: 1px solid red;
 }
 
+#imagem-fundo {
+    display: flex;
+    flex-direction: column;
+    background-image: url(../images/fundo-projeto.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
 #menu {
     display: flex;
     flex-direction: row;
@@ -76,6 +84,8 @@ body {
 
 #txt-titulo1 {
     display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 827px;
     height: 436px;
     border: 1px solid red;
@@ -105,6 +115,8 @@ body {
 
 #txt-titulo2 {
     display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 827px;
     height: 436px;
     border: 1px solid red;
@@ -134,6 +146,8 @@ body {
 
 #txt-titulo3 {
     display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 827px;
     height: 436px;
     border: 1px solid red;
@@ -149,20 +163,40 @@ body {
     border: 1px solid red;
     margin-top: 76px;
     margin-left: 47px; 
+    margin-bottom: 32px;
     background-color: #6a7275;
 }
 
-#rodape {
-    display: flex;
-    justify-content: center;
+#video-negligencia video {
+    width: 100%; /* Ocupa 100% da largura da div */
+    height: 100%; /* Altura fixa de 300px */
+  }
+
+footer {
     width: 1440px;
-    height: 519px;
-    border: 1px solid red;
-    margin-top: 51px; 
+    height: 400px;
+    padding: 20px;
+    color: #000000;
+    text-align: center;
+    border: 1px solid #7dd8f3;
+    transition: .5s;
 }
 
- #imagem-fundo {
+
+.footer-content {
     display: flex;
-    flex-direction: column;
-    background-image: url(../images/Area130.png);
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}   
+
+.hospital-info {
+    text-align: left;
 }
+
+.senaclogo {
+    max-width: 380px;
+    margin-right: 300px;
+}
+
+ 

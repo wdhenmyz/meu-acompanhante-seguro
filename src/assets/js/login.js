@@ -1,4 +1,3 @@
-let trilho = document.getElementById('trilho')
 let body = document.querySelector('body')
 
 // função para modo dark

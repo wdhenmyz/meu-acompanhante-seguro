@@ -4,6 +4,7 @@
 
 body.dark {
     background-image: url(../images/fundo-projeto-2.png);
+    transition: 1s;
 }
 
 .dark #topo {

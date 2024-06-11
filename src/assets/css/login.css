@@ -5,6 +5,7 @@ body {
     background-image: url(../images/fundo-projeto.jpg);
     background-size: cover;
     background-position: center;
+    transition: 1s;
 }
 
 h3 {

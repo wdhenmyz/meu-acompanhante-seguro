@@ -1,26 +1,32 @@
-let trilho = document.getElementById('trilho')
-let body = document.getElementById('corpo')
+let botaoTemaEscuro = document.getElementById('dark-mode')
+let body = document.querySelector('body')
+let header = document.querySelector('header')
+let footer = document.querySelector('footer')
+const imagem = document.getElementById('historias-logo')
 
-// função para modo dark
-trilho.addEventListener('click', () => {
-    trilho.classList.toggle('dark')
+botaoTemaEscuro.addEventListener('click', ()=>{ 
     body.classList.toggle('dark')
+    header.classList.toggle('dark')
+    footer.classList.toggle('dark')
+    
+
+    if (body.classList.contains('dark')) {
+        imagem.setAttribute('src', './assets/images/sb-historias-logo-branco.svg');
+    } else {
+        imagem.setAttribute('src', './assets/images/sb-historias-logo.svg');
+        botaoTemaEscuro.setAttribute('src', './assets/images/mode-dark.png');
+    }
+
 })
 
 
+let botaoMaisFonte = document.getElementById('fonte-mais')
+let botaoMenosFonte = document.getElementById('fonte-menos')
 
-// Função para aumentar o tamanho da letra
-function aumentarTamanho() {
-    const corpo = document.getElementById('corpo');
-    const estilo = window.getComputedStyle(corpo, null).getPropertyValue('font-size');
-    const tamanhoAtual = parseFloat(estilo);
-    corpo.style.fontSize = (tamanhoAtual + 2) + 'px';
-}
+botaoMaisFonte.addEventListener('click', function() {
+    document.body.style.fontSize = '180%'
+})
 
-// Função para diminuir o tamanho da letra
-function diminuirTamanho() {
-    const corpo = document.getElementById('corpo');
-    const estilo = window.getComputedStyle(corpo, null).getPropertyValue('font-size');
-    const tamanhoAtual = parseFloat(estilo);
-    corpo.style.fontSize = (tamanhoAtual - 2) + 'px';
-}
+botaoMenosFonte.addEventListener('click', function() {
+    document.body.style.fontSize = '100%'
+})

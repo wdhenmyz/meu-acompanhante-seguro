@@ -2,11 +2,21 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-image: url(../images/img-fundo-projeto.png);
+    width: 100%;
+    height: 100%;
+    background-size:  cover;
+    background-position: center;
 }
 
-#img-fundo {
+/* #img-fundo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-image: url(../images/img-fundo-projeto.png);
-}
+    width: 100%;
+    height: 100%;
+} */
 
 #menu {
     display: flex;
@@ -17,48 +27,113 @@ body {
     justify-content: space-between; 
     font-size: 12px;
     background:linear-gradient(45deg,#47c2fc, #FFFFFF, #4CC4FC,#FFFFFF,#1997D1,#2c95ce);
-    
 }
-
 
 #img-cruz{
     display: flex;
     flex-direction: row;
-     
     align-items: center;
     width: 720px;
 }
 
-#cruz {
-     
-
-}
 #nome-hospital {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     font-weight: bold;
+    list-style-type: none;  
 }
 
 #letras-login{
     display: flex;
     flex-direction: row;
-     
     width: 720px;
     justify-content: space-around;
     align-items: center;
 }
 
 #letras-cor-pagina{
-     
-    width: 360px;
+    display: flex;
+    margin-top: 20px;
+}
+
+#historia {
+    display: flex;
+    flex-direction: row;
+}
+
+.acessibilidade {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #32312d;;
+    font-size: 16px;
+    cursor: pointer;
 }
 
 
-.menu-button {
+/* Modo escuro - inicio */
+.dark-mode {
+    width: 40px;
+    height: 40px;
+}
+
+body.dark {
+    background-image: url(../images/img-fundo-projeto-dark.png);
+}
+
+
+
+/* .dark body {
     
+}  */
+
+.dark #img-negligencia {
+    content: url('../images/img-negligencia-dark.png');
 }
 
-  .menu-button button {
+.dark #img-risco {
+    content: url('../images/img-contaminacao-dark.png');
+}
+
+.dark #img-sinalizacao {
+    content: url('../images/img-sinalizacaoarea-dark.png');
+}
+
+.dark #img-proibido {
+    content: url('../images/img-proibido-alimentos-dark.png');
+}
+.dark #menu{
+    background:linear-gradient(45deg,#24607c, #838383, #245c75,#646464,#0c4966,#154661);
+}
+.dark button {
+    background-color: #202020;
+    color: #FFFFFF;
+    border-color: #202020;
+}
+
+.dark button:hover {
+    background-color: #ffffff;
+    color: #000000;
+    border-color: #202020;
+}
+
+.dark a {
+    color: #FFFFFF;
+}
+
+.dark a:hover {
+    color: #a7a7a7;
+}
+
+.dark li {
+    color: #FFFFFF;
+}
+
+/* Modo escuro - fim */
+
+.menu-button button {
     padding: 10px 30px;
     border: none;
     background: linear-gradient(45deg, #1378b3, #3da1db, #84b5d1, #50a9dd, #098fe2);
@@ -66,16 +141,26 @@ body {
     font-weight: bold;
     border-radius: 20px;
     border-bottom: 1px solid rgb(91, 48, 248);
-  }
-  
+}
 
+button:hover {
+    padding: 8px 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 20px;
+    border-color: #1E3932;
+    cursor: pointer;
+    color: #FFFFFF;
+    background-color: #1E3932;
+    transition: 400ms;
+}
 
-
-#video {
+#main{
     display: flex;
     align-items: center;
+}
+#video {
+    display: flex;
     margin-top: 68px;
-    margin-left: 144px;
 }
 
 #negligencia-risco {
@@ -103,10 +188,9 @@ body {
     flex-direction: row;
     justify-content: space-between;
     width: 1440px;
-    height: 519px;
+    height: 400px;
     background-image: url(../images/img-fundo-rodape.png);
     margin-top: 100px;
-     
 }
 
 #logo-rodape{
@@ -116,10 +200,8 @@ body {
 }
 
 #contato-rodape{
-     
     margin-right: 200px;
     margin-top: 132px;
-
 }
 
 .li-contato{
@@ -132,5 +214,6 @@ body {
 .li-contato2{
     list-style-type: none;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
 }
 

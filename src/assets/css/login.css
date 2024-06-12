@@ -77,6 +77,19 @@ p {
     width: 400px;
 }
 
+#botaodark {
+    width: 60px;
+    height: 60px;
+    background-color: transparent;
+    border: transparent;
+}
+
+.dark-mode {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
 #login {
     padding: 10px 30px;
     border: none;

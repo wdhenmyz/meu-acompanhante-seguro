@@ -1,11 +1,3 @@
-let body = document.querySelector('body')
-
-// função para modo dark
-trilho.addEventListener('click', () => {
-    trilho.classList.toggle('dark')
-    body.classList.toggle('dark')
-})
-
 let contador = 0
 
 // Função para aumentar o tamanho da letra

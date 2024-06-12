@@ -7,7 +7,7 @@
 
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/detalhes.css">
-    <script src="./assets/js/index.js" defer></script>
+    <script src="./assets/js/detalhes.js"></script>
 
 </head>
 <body>
@@ -25,9 +25,13 @@
                     <button onclick="aumentarTamanho()" class="tamanho">A+</button>
                     <button onclick="diminuirTamanho()" class="tamanho">a-</button>
                 </div>
+                <button id="botaodark" onclick="document.body.classList.toggle('dark')">
+                    <img id="dark-mode" class="dark-mode" src="./assets/images/mode-dark.png" alt="">
+                </button>
                 <div class="menu-button">
                     <button type="button">Login</button>
                 </div>
+                
             </div>
 
         </header>
@@ -35,7 +39,7 @@
         <div class="container">
             <div id="mae-titulo1">
                 <figure id="img-titulo1">
-                    
+                    <img src="./assets/images/121221221.webp" alt="">
                 </figure>
                 <div id="txt-titulo1">
                         <h2 class="titulo">Titulo 1</h2>
@@ -51,7 +55,7 @@
         <div class="container">
             <div id="mae-titulo2">
               <figure id="img-titulo2">
-                <img src="imagem.jpg" alt="Descrição da imagem">
+                <img src="./assets/images/epis-negligencias.jpg" alt="Descrição da imagem">
               </figure>
               <div id="txt-titulo2">
                 <h2 class="titulo">Titulo 2</h2>
@@ -65,7 +69,7 @@
         <div class="container">
             <div id="mae-titulo3">
                 <figure id="img-titulo3">
-                    
+                    <img src="./assets/images/mulher de óculos.webp" alt="">
                 </figure>
                 <div id="txt-titulo3">
                     <h2 class="titulo">Titulo 3</h2>

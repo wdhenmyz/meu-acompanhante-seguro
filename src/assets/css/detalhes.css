@@ -3,12 +3,16 @@ body {
     flex-direction: column;
     align-items: center;
     border: 1px solid red;
+    background-size: cover;
+    background-position: center;
+    transition: 1s;
+    background-image: url(../images/fundo-projeto.jpg);
 }
 
 #imagem-fundo {
     display: flex;
     flex-direction: column;
-    background-image: url(../images/fundo-projeto.jpg);
+    /*  */
     background-size: cover;
     background-position: center;
 }
@@ -39,6 +43,11 @@ body {
     border: 1px solid red;
     flex-direction: row;
     justify-content: space-around;
+}
+
+#botaodark {
+    background-color: transparent;
+    border: transparent;
 }
 
 .menu-button button {
@@ -105,6 +114,7 @@ p {
 #img-titulo1 img {
     width: 100%; /* Ajustar largura da imagem */
     height: auto; /* Manter proporção da imagem */
+    border-radius: 20px 20px 20px 20px;
 }
 
 #txt-titulo1 {
@@ -142,6 +152,7 @@ p {
 #img-titulo2 img {
     width: 100%; /* Ajustar largura da imagem */
     height: auto; /* Manter proporção da imagem */
+    border-radius: 20px 20px 20px 20px;
 }
 
 #txt-titulo2 {
@@ -178,6 +189,7 @@ p {
 #img-titulo3 img {
     width: 100%; /* Ajustar largura da imagem */
     height: auto; /* Manter proporção da imagem */
+    border-radius: 20px 20px 20px 20px;
 }
 
 #txt-titulo3 {
@@ -235,4 +247,28 @@ footer {
     margin-right: 300px;
 }
 
- 
+
+ /* Modo escuro */
+.dark-mode {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+body.dark {
+    background-image: url(../images/img-fundo-projeto-dark.png);
+}
+
+.dark button:hover {
+    background-color: #ffffff;
+    color: #000000;
+    border-color: #202020;
+}
+
+.dark a {
+    color: #FFFFFF;
+}
+
+.dark a:hover {
+    color: #a7a7a7;
+}

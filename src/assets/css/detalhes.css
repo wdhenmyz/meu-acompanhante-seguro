@@ -259,6 +259,10 @@ body.dark {
     background-image: url(../images/img-fundo-projeto-dark.png);
 }
 
+.dark #menu{
+    background:linear-gradient(45deg,#24607c, #838383, #245c75,#646464,#0c4966,#154661);
+}
+
 .dark button:hover {
     background-color: #ffffff;
     color: #000000;
@@ -271,4 +275,38 @@ body.dark {
 
 .dark a:hover {
     color: #a7a7a7;
+}
+
+.dark h3 {
+    color: white;
+}
+.dark h2 {
+    color: white;
+}
+
+.dark p {
+    color: white;
+}
+
+.dark footer {
+    background:linear-gradient(45deg,#24607c, #838383, #245c75,#646464,#0c4966,#154661);
+    transition: .5s;
+} 
+
+.dark .senaclogo {
+    filter: brightness(1.3);
+}
+
+.dark #txt-titulo1 {
+    background-color: #306a85;
+}
+.dark #txt-titulo2 {
+    background-color: #306a85;
+}
+.dark #txt-titulo3 {
+    background-color: #306a85;
+}
+
+.dark .senaclogo {
+    filter: brightness(1);
 }

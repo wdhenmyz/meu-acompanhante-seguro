@@ -1,5 +1,5 @@
-.trilho.dark .indicador {
-    background-color: white;
+.dark .dark-mode {
+    filter: brightness(1.9);
 }
 
 body.dark {

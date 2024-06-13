@@ -416,7 +416,7 @@ footer {
         align-items: center;
         justify-content: center;
         border-radius: 15px;
-        border: 1px solid #21B9FF;
+        border: 1px;
         width: 450px;
         height: 450px;
         background-color: #4cc4fc4b;
@@ -445,7 +445,7 @@ footer {
         align-items: center;
         justify-content: flex-start;
         border-radius: 15px;
-        border: 1px solid #21B9FF;
+        border: 1px;
         width: 450px;
         height: 470px;
         background-color: #4cc4fc4b;
@@ -465,7 +465,7 @@ footer {
         padding: 20px;
         color: #000000;
         text-align: center;
-        border: 1px solid #7dd8f3;
+        border: 1px;
     }
     
     

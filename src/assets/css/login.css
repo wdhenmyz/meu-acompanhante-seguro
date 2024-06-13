@@ -165,7 +165,6 @@ section{
     width: 600px;
     height: 600px;
     background-color: #4cc4fc4b;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     padding: 1px;
     margin-bottom: 32px;
     transition: .5s;

@@ -141,11 +141,10 @@ section{
     justify-content: center;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
-    border: 1px solid #21B9FF;
+    border: 1px;
     width: 600px;
     height: 600px;
     background-color: #4cc4fc4b;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     padding: 1px;
     margin-bottom: 32px;
     transition: .5s;
@@ -162,7 +161,7 @@ section{
     justify-content: flex-start;
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
-    border: 1px solid #21B9FF;
+    border: 1px;
     width: 600px;
     height: 600px;
     background-color: #4cc4fc4b;
@@ -241,7 +240,7 @@ footer {
     padding: 20px;
     color: #000000;
     text-align: center;
-    border: 1px solid #7dd8f3;
+    border: 1px;
     transition: .5s;
 }
 

@@ -354,6 +354,11 @@ footer {
         width: 300px;
     }
 
+    #botoestamanho {
+        display: flex;
+        margin-right: 10px;
+    }
+
     .tamanho {
         padding: 10px 30px;
         border: none;
@@ -363,7 +368,7 @@ footer {
         border-radius: 20px;
         border-bottom: 1px solid rgb(91, 48, 248);
         margin: 1px;
-        margin-left: 2px;
+        margin-left: px;
         transition: 1s;
     }
 

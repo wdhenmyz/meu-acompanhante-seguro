@@ -34,7 +34,7 @@ p {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    border: 1px transparent;
+    border: 1px ;
     width: 1440px;
     height:70px;
     background:linear-gradient(45deg,#47c2fc, #FFFFFF, #4CC4FC,#FFFFFF,#1997D1,#2c95ce);
@@ -315,7 +315,7 @@ footer {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        border: 1px solid #D4E9E2;
+        border: 1px ;
         width: 768px;
         height:70px;
         background-color: #3f9eeb;

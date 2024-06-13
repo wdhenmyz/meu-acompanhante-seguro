@@ -8,7 +8,7 @@ body.dark {
 }
 
 .dark #topo {
-    background: #02345e;
+    background:linear-gradient(45deg,#24607c, #838383, #245c75,#646464,#0c4966,#154661);
     transition: .5s;
 }
 

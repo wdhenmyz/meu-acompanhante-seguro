@@ -43,6 +43,10 @@ p {
     transition: .5s;
 }
 
+#botoestamanho {
+    display: flex;
+    margin-right: 110px;
+}
 .tamanho {
     padding: 10px 30px;
     border: none;

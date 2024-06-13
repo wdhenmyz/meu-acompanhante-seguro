@@ -238,7 +238,7 @@ footer {
     width: 1440px;
     height: 400px;
     padding: 20px;
-    color: #000000;
+    background-image: url(../images/img-fundo-rodape.png);
     text-align: center;
     border: 1px;
     transition: .5s;

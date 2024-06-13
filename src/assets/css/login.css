@@ -385,7 +385,7 @@ footer {
         justify-content: center;
         margin-bottom: 32px;
         width: 250px;
-        height: 100px;
+        height: 140px;
         border-radius: 15px;
     }
 
@@ -435,7 +435,7 @@ footer {
         border-radius: 15px;
         border: 1px solid #21B9FF;
         width: 450px;
-        height: 460px;
+        height: 470px;
         background-color: #4cc4fc4b;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         padding: 1px;

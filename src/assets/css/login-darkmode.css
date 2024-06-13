@@ -41,7 +41,7 @@ body.dark {
 }
 
 .dark footer {
-    background: #02355e5e;
+    background-image: url(../images/img-fundo-rodape.png);
     transition: .5s;
 } 
 

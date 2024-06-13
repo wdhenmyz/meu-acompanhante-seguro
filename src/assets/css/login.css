@@ -87,6 +87,7 @@ p {
     height: 60px;
     background-color: transparent;
     border: transparent;
+    margin-right: 2px;
 }
 
 .dark-mode {

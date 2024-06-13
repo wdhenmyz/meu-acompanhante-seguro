@@ -9,14 +9,6 @@ body {
     background-position: center;
 }
 
-/* #img-fundo {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-image: url(../images/img-fundo-projeto.png);
-    width: 100%;
-    height: 100%;
-} */
 
 #menu {
     display: flex;
@@ -59,19 +51,40 @@ body {
 #historia {
     display: flex;
     flex-direction: row;
-}
-
-.acessibilidade {
-    display: flex;
-    flex-direction: row;
     align-items: center;
     margin-bottom: 25px;
     font-family: Arial, Helvetica, sans-serif;
-    color: #32312d;;
     font-size: 16px;
     cursor: pointer;
 }
 
+#fonte-mais {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding: 4px 20px;
+    background: linear-gradient(45deg, #1378b3, #3da1db, #84b5d1, #50a9dd, #098fe2);
+    color: #fff;
+    font-weight: bold;
+    border-radius: 20px;
+    border-bottom: 1px solid rgb(91, 48, 248);
+} 
+
+#fonte-menos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding: 4px 20px;
+    background: linear-gradient(45deg, #1378b3, #3da1db, #84b5d1, #50a9dd, #098fe2);
+    color: #fff;
+    font-weight: bold;
+    border-radius: 20px;
+    border-bottom: 1px solid rgb(91, 48, 248);
+}
 
 /* Modo escuro - inicio */
 .dark-mode {
@@ -82,12 +95,6 @@ body {
 body.dark {
     background-image: url(../images/img-fundo-projeto-dark.png);
 }
-
-
-
-/* .dark body {
-    
-}  */
 
 .dark #img-negligencia {
     content: url('../images/img-negligencia-dark.png');
@@ -107,6 +114,7 @@ body.dark {
 .dark #menu{
     background:linear-gradient(45deg,#24607c, #838383, #245c75,#646464,#0c4966,#154661);
 }
+
 .dark button {
     background-color: #202020;
     color: #FFFFFF;
@@ -130,6 +138,7 @@ body.dark {
 .dark li {
     color: #FFFFFF;
 }
+
 
 /* Modo escuro - fim */
 
@@ -193,8 +202,7 @@ button:hover {
     margin-top: 100px;
 }
 
-#logo-rodape{
-     
+#logo-rodape{   
     margin-left: 39px;
     margin-top: 95px;
 }
@@ -202,18 +210,7 @@ button:hover {
 #contato-rodape{
     margin-right: 200px;
     margin-top: 132px;
+    list-style-type: none;
 }
 
-.li-contato{
-    list-style-type: none;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: x-large;
-    font-weight: bold;
-}
-
-.li-contato2{
-    list-style-type: none;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: x-large;
-}
 

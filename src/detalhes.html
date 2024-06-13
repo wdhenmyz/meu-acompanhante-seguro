@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -57,5 +57,104 @@
 
         </div>
     </div>
+</body>
+</html> -->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/login.css">
+    <link rel="stylesheet" href="./assets/css/login-darkmode.css">
+    <script src="./assets/js/sript.js" defer></script>
+
+</head>
+<body>
+    <div id="corpo" >
+        <header id="topo"> 
+            <div id="nav-esquerda">
+                <figure >
+                    <img id="cruz" src="./assets/images/cruz2.png" alt="projeto integrador">
+                </figure>
+
+                <h3 >Meu Acompanhante Seguro</h3>
+            </div>
+            <div id="nav-direita">
+                <button id="botaodark" onclick="document.body.classList.toggle('dark')">
+                    <img id="dark-mode" class="dark-mode" src="./assets/images/mode-dark.png" alt="">
+                </button>
+                <div id="botoestamanho">
+                    <button onclick="aumentarTamanho()" class="tamanho">A+</button>
+                    <button onclick="diminuirTamanho()" class="tamanho">A-</button>
+                </div>
+                <button id="login">login</button>
+            </div>
+
+        </header>
+
+        <div id="area">
+            <h1>Bem-Vindo!</h1> 
+            <p>Área para pessoas</p>
+            <p>autorizadas</p>
+            <button class="ler-button">Ler em Voz Alta</button>
+        </div>
+        <br>
+
+        <section >
+
+            <div id="area_de_login_2">
+                <figure id="cruz2_a">
+                    <img id="cruz2" src="./assets/images/cruz2.png" alt="">
+                </figure>
+                <h1>Hospital Santa Catarina</h1>
+                    <p> Área exclusiva para profissionais </p>
+                    <p> da saúde. Por favor, faça login para </p>
+                    <p> acessar conteúdos e recursos </p>
+                    <p> especializados.</p>    
+                <br>
+                    <button class="ler-button">Ler em Voz Alta</button>
+            </div>
+
+            <div>
+                <form id="area_de_login">
+                    <div class="input-group">
+                        <h3>E-mail</h3>
+                        <input type="email" class="checkbox"  >
+                    </div>   
+                    <div class="input-group">
+                        <h3>Senha</h3>
+                        <input type="password" class="checkbox" >
+                    </div>   
+                    <a href="#" class="esqueceu">Esqueceu a senha?</a>
+                    <button type="submit">Login</button>
+                </form>   
+            </div>
+
+        </section>
+
+        <footer>
+            <div class="footer-content">
+                <img class="senaclogo" src="./assets/images/senac-logo-41-removebg-preview.png" alt="">
+                <div class="hospital-info"> 
+                    <h3>Hospital Dr. José Pedro Bezerra</h3>
+                    <br>
+                    <h3>Localização:</h3>
+                    <p>Rua Arauágn, s/n - Potengi, Natal - RN</p>
+                    <p>Cep: 59110-380</p>
+                    <br>
+                    <h3>Contato 0843327831</h3>
+                    <br>
+                    <button class="ler-button">Ler em Voz Alta</button>
+                </div>
+            </div>
+        </footer>
+    </div>
+
 </body>
 </html>

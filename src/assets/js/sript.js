@@ -19,14 +19,15 @@ botaoTemaEscuro.addEventListener('click', ()=>{
 
 })
 
-
 let botaoMaisFonte = document.getElementById('fonte-mais')
 let botaoMenosFonte = document.getElementById('fonte-menos')
 
 botaoMaisFonte.addEventListener('click', function() {
-    document.body.style.fontSize = '180%'
+    document.body.style.fontSize = '200%'
 })
 
 botaoMenosFonte.addEventListener('click', function() {
     document.body.style.fontSize = '100%'
 })
+
+

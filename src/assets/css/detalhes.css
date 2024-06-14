@@ -311,7 +311,7 @@ body.dark {
     filter: brightness(1);
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 768px) {
     body {
         display: flex;
         flex-direction: column;
@@ -320,6 +320,14 @@ body.dark {
         background-position: center;
         transition: 1s;
         background-image: url(../images/fundo-projeto.jpg);
+    }
+
+    #imagem-fundo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-size: cover;
+        background-position: center;
     }
 
     #menu {
@@ -342,6 +350,7 @@ body.dark {
         margin-right: 20px;
         text-indent: 20px; /* Recuo da primeira linha para melhor organização visual */
     }
+
 
     #mae-titulo1 {
         width: 768px;
@@ -373,6 +382,8 @@ body.dark {
         width: 350px;
         height: 350px;
         background-color: #E2F0F5;
+        font-size: 0.8em;
+        line-height: 1.2;
     }
     
     
@@ -406,6 +417,8 @@ body.dark {
         width: 350px;
         height: 350px;
         background-color: #E2F0F5;
+        font-size: 0.8em;
+        line-height: 1.2;
     }
     
     #mae-titulo3 {
@@ -438,6 +451,8 @@ body.dark {
         width: 350px;
         height: 350px;
         background-color: #E2F0F5;
+        font-size: 0.8em;
+        line-height: 1.2;
     }
 
     #video-negligencia {
@@ -447,6 +462,11 @@ body.dark {
         height: 350px;
         background-color: #6a7275;
     }
+
+    #video-negligencia video {
+        width: 100%; /* Ocupa 100% da largura da div */
+        height: 100%; /* Altura fixa de 300px */
+      }
 
     footer {
         width: 768px;
@@ -469,8 +489,8 @@ body.dark {
     }
     
     .senaclogo {
-        max-width: 380px;
-        margin-right: 300px;
+        max-width: 200px;
+        margin-right: 200px;
     }
 
 }

@@ -24,6 +24,10 @@ body {
     background:linear-gradient(45deg,#47c2fc, #FFFFFF, #4CC4FC,#FFFFFF,#1997D1,#2c95ce);   
 }
 
+a {
+    text-decoration: none;
+}
+
 #nav-esquerda {
     display: flex;
     align-items: center;
@@ -288,7 +292,7 @@ body.dark {
 }
 
 .dark footer {
-    background:linear-gradient(45deg,#24607c, #838383, #245c75,#646464,#0c4966,#154661);
+    background:url(../images/img-fundo-rodape.png);
     transition: .5s;
 } 
 

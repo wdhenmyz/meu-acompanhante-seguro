@@ -25,7 +25,7 @@ body {
 }
 
 a {
-    text-decoration: none;
+    text-decoration: none; /* tirar Linha de links do nome meu acompanhante Seguro */
 }
 
 #nav-esquerda {
@@ -137,6 +137,7 @@ p {
     height: 436px;
     background-color: #E2F0F5;
     margin-left: 21px;
+    border-radius: 20px;
 }
 
 
@@ -172,6 +173,7 @@ p {
     height: 436px;
     background-color: #E2F0F5;
     margin-left: 21px;
+    border-radius: 20px;
 }
 
 #mae-titulo3 {
@@ -206,6 +208,7 @@ p {
     height: 436px;
     background-color: #E2F0F5;
     margin-left: 21px;
+    border-radius: 20px;
 }
 
 #video-negligencia {

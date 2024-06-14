@@ -12,6 +12,10 @@ body.dark {
     transition: .5s;
 }
 
+.dark a {
+    color: #ffffff
+}
+
 .dark h3 {
     color: #ffffff;
 }

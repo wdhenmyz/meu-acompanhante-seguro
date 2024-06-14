@@ -28,12 +28,20 @@ body.dark {
     color: #ffffff;
 }
 
+.dark .tamanho {
+    color: #ffffff;
+}
+
 .dark #area {
     background-color: #02345e;
 }
 
 .dark #area_de_login {
     background-color: #02345e;
+}
+
+button[type="submit"] {
+    color: #ffffff;
 }
 
 .dark #area_de_login_2 {

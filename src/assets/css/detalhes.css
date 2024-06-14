@@ -2,7 +2,6 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 1px solid red;
     background-size: cover;
     background-position: center;
     transition: 1s;
@@ -12,7 +11,6 @@ body {
 #imagem-fundo {
     display: flex;
     flex-direction: column;
-    /*  */
     background-size: cover;
     background-position: center;
 }
@@ -23,7 +21,6 @@ body {
     justify-content: space-between;
     width: 1440px;
     height: 70px;
-    border: 1px solid red;
     background:linear-gradient(45deg,#47c2fc, #FFFFFF, #4CC4FC,#FFFFFF,#1997D1,#2c95ce);   
 }
 
@@ -32,7 +29,6 @@ body {
     align-items: center;
     width: 720px;
     height: 70px;
-    border: 1px solid red;
 }
 
 #nav-direita {
@@ -40,7 +36,6 @@ body {
     align-items: center;
     width: 720px;
     height: 70px;
-    border: 1px solid red;
     flex-direction: row;
     justify-content: space-around;
 }
@@ -91,6 +86,10 @@ p {
     text-indent: 20px; /* Recuo da primeira linha para melhor organização visual */
 }
 
+.texto {
+    overflow: scroll;
+}
+
 .ler-button {
     padding: 10px 30px;
     border: none;
@@ -109,14 +108,12 @@ p {
     flex-direction: row;
     justify-content: center;
     margin-top: 24px;
-    border: 1px solid red;
 }
 
 #img-titulo1 {
     display: flex;
     width: 480px;
     height: 436px;
-    border: 1px solid red;
     background-color: #E2F0F5;
     margin-right: 22px;
     border-radius: 20px 20px 20px 20px;
@@ -134,7 +131,6 @@ p {
     align-items: center;
     width: 827px;
     height: 436px;
-    border: 1px solid red;
     background-color: #E2F0F5;
     margin-left: 21px;
 }
@@ -147,14 +143,12 @@ p {
     flex-direction: row;
     justify-content: center;
     margin-top: 62px;
-    border: 1px solid red;
 }
 
 #img-titulo2 {
     display: flex;
     width: 480px;
     height: 436px;
-    border: 1px solid red;
     background-color: #E2F0F5;
     margin-right: 22px;
     border-radius: 20px 20px 20px 20px;
@@ -172,7 +166,6 @@ p {
     align-items: center;
     width: 827px;
     height: 436px;
-    border: 1px solid red;
     background-color: #E2F0F5;
     margin-left: 21px;
 }
@@ -184,14 +177,12 @@ p {
     flex-direction: row;
     justify-content: center;
     margin-top: 61px;
-    border: 1px solid red;
 }
 
 #img-titulo3 {
     display: flex;
     width: 480px;
     height: 436px;
-    border: 1px solid red;
     background-color: #E2F0F5;
     margin-right: 22px;
     border-radius: 20px 20px 20px 20px;
@@ -209,7 +200,6 @@ p {
     align-items: center;
     width: 827px;
     height: 436px;
-    border: 1px solid red;
     background-color: #E2F0F5;
     margin-left: 21px;
 }
@@ -219,7 +209,6 @@ p {
     justify-content: center;
     width: 1350px;
     height: 711px;
-    border: 1px solid red;
     margin-top: 76px;
     margin-left: 47px; 
     margin-bottom: 32px;
@@ -320,4 +309,168 @@ body.dark {
 
 .dark .senaclogo {
     filter: brightness(1);
+}
+
+@media screen and (max-width: 800px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-size: cover;
+        background-position: center;
+        transition: 1s;
+        background-image: url(../images/fundo-projeto.jpg);
+    }
+
+    #menu {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 768px;
+        height: 70px;
+        background:linear-gradient(45deg,#47c2fc, #FFFFFF, #4CC4FC,#FFFFFF,#1997D1,#2c95ce);   
+    }
+
+    p {
+        font-family: Arial, sans-serif;
+        font-size: 1.2em;
+        line-height: 1.1; /* Espaçamento entre linhas */
+        color: #000000; /* Cor do texto */
+        text-align: justify; /* Alinhamento justificado */
+        margin-bottom: 15px; /* Espaçamento entre parágrafos */
+        margin-left: 20px;
+        margin-right: 20px;
+        text-indent: 20px; /* Recuo da primeira linha para melhor organização visual */
+    }
+
+    #mae-titulo1 {
+        width: 768px;
+        height: 436px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 24px;
+    }
+    
+    #img-titulo1 {
+        display: flex;
+        width: 350px;
+        height: 350px;
+        background-color: #E2F0F5;
+        border-radius: 20px 20px 20px 20px;
+    }
+    
+    #img-titulo1 img {
+        width: 100%; /* Ajustar largura da imagem */
+        height: auto; /* Manter proporção da imagem */
+        border-radius: 20px 20px 20px 20px;
+    }
+    
+    #txt-titulo1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 350px;
+        height: 350px;
+        background-color: #E2F0F5;
+    }
+    
+    
+    #mae-titulo2 {
+        width: 768px;
+        height: 436px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 62px;
+    }
+    
+    #img-titulo2 {
+        display: flex;
+        width: 350px;
+        height: 350px;
+        background-color: #E2F0F5;
+        border-radius: 20px 20px 20px 20px;
+    }
+    
+    #img-titulo2 img {
+        width: 100%; /* Ajustar largura da imagem */
+        height: auto; /* Manter proporção da imagem */
+        border-radius: 20px 20px 20px 20px;
+    }
+    
+    #txt-titulo2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 350px;
+        height: 350px;
+        background-color: #E2F0F5;
+    }
+    
+    #mae-titulo3 {
+        width: 768px;
+        height: 436px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 61px;
+    }
+    
+    #img-titulo3 {
+        display: flex;
+        width: 350px;
+        height: 350px;
+        background-color: #E2F0F5;
+        border-radius: 20px 20px 20px 20px;
+    }
+    
+    #img-titulo3 img {
+        width: 100%; /* Ajustar largura da imagem */
+        height: auto; /* Manter proporção da imagem */
+        border-radius: 20px 20px 20px 20px;
+    }
+    
+    #txt-titulo3 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 350px;
+        height: 350px;
+        background-color: #E2F0F5;
+    }
+
+    #video-negligencia {
+        display: flex;
+        justify-content: center;
+        width: 768px;
+        height: 350px;
+        background-color: #6a7275;
+    }
+
+    footer {
+        width: 768px;
+        height: 400px;
+        padding: 20px;
+        color: #000000;
+        text-align: center;
+        border: 1px solid #7dd8f3;
+        transition: .5s;
+    }
+
+    .footer-content {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }   
+    
+    .hospital-info {
+        text-align: left;
+    }
+    
+    .senaclogo {
+        max-width: 380px;
+        margin-right: 300px;
+    }
+
 }

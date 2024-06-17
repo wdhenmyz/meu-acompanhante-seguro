@@ -192,6 +192,10 @@ section{
     transition: 1s;
 }
 
+#altofalante {
+    width: 50px;
+}
+
 button:hover { 
     transform: scale(1.09);
     transition: 1s;

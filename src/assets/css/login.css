@@ -12,19 +12,23 @@ h3 {
     font-style: normal;
     font-weight: 800;
     font-size: 1.4em;
+    margin: 0px;
 }
 
 a {
     text-decoration: none;
     color: #000000;
+    margin: 0px;
 }
 
 h1 {
     font-size: 2.4em ;
+    margin: 0px;
 }
 
 p {
     font-size: 1.4em;
+    margin: 0px;
 }
 
 #corpo {
@@ -148,7 +152,7 @@ section{
     border-bottom-right-radius: 15px;
     border: 1px;
     width: 600px;
-    height: 600px;
+    height: 650px;
     background-color: #4cc4fc4b;
     padding: 1px;
     margin-bottom: 32px;
@@ -168,17 +172,15 @@ section{
     border-bottom-left-radius: 15px;
     border: 1px;
     width: 600px;
-    height: 600px;
+    height: 650px;
     background-color: #4cc4fc4b;
     padding: 1px;
     margin-bottom: 32px;
     transition: .5s;
 }
 
-
-#cruz2 {
-    width: 250px;
-    margin: 40px;
+#cruz2_a #cruz2 {
+    width: 200px;
 }
 
 .ler-button {
@@ -547,7 +549,7 @@ footer {
         height: 30px;
         background-color: transparent;
         border: transparent;
-        margin-right: 2px;
+        margin-right: 20px;
     }
     
     .dark-mode {
@@ -565,7 +567,7 @@ footer {
         border-radius: 20px;
         border-bottom: 1px solid rgb(91, 48, 248);
         margin-left: 0px;
-        margin-right: 10px;
+        margin-right: 19px;
         transition: 1s;
     }
 
@@ -633,7 +635,7 @@ footer {
         border-radius: 15px;
         border: 1px;
         width: 350px;
-        height: 470px;
+        height: 500px;
         background-color: #4cc4fc4b;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         padding: 1px;
@@ -662,7 +664,7 @@ footer {
         border-radius: 15px;
         border: 1px;
         width: 350px;
-        height: 470px;
+        height: 500px;
         background-color: #4cc4fc4b;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         padding: 1px;

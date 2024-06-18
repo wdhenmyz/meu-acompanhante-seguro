@@ -703,3 +703,231 @@ footer {
     }
     
 }
+
+@media screen and (max-width: 430px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    h3 {
+        font-style: normal;
+        font-weight: 800;
+        font-size: 0.8em;
+    }
+    
+    h1 {
+        font-size: 1.9em ;
+    }
+    
+    p {
+        font-size: 1.3em;
+    }
+
+    
+    
+    #corpo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 428px;
+        height: 100%;
+        background-size: cover;
+        background-position: center;
+    }
+
+    #topo {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        border: 1px ;
+        width: 100%;
+        height:140px;
+        background-color: #3f9eeb;
+        padding: 1px;
+        margin-bottom: 90px;
+        transition: .5s;
+    }
+
+    #nav-esquerda {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+    
+    #cruz {
+        width: 50px;
+        height: 50px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    
+    #nav-direita {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    #botaodark {
+        width: 30px;
+        height: 30px;
+        background-color: transparent;
+        border: transparent;
+        margin-right: 20px;
+    }
+    
+    .dark-mode {
+        width: 30px;
+        height: 30px;
+        cursor: pointer;
+    }
+    
+    #login {
+        padding: 10px 30px;
+        border: none;
+        background: linear-gradient(45deg, #1378b3, #3da1db, #84b5d1, #50a9dd, #098fe2);
+        color: #fff;
+        font-weight: bold;
+        border-radius: 20px;
+        border-bottom: 1px solid rgb(91, 48, 248);
+        margin-left: 0px;
+        margin-right: 19px;
+        transition: 1s;
+    }
+
+    #botoestamanho {
+        display: flex;
+        margin-right: 8px;
+        margin-left: 5px;
+    }
+
+    .tamanho {
+        padding: 10px 30px;
+        border: none;
+        background: linear-gradient(45deg, #1378b3, #3da1db, #84b5d1, #50a9dd, #098fe2);
+        color: #fff;
+        font-weight: bold;
+        border-radius: 20px;
+        border-bottom: 1px solid rgb(91, 48, 248);
+        margin: 1px;
+        transition: 1s;
+    }
+
+    button[type="button"] {
+        padding: 10px 30px;
+        border: none;
+        background: linear-gradient(45deg, #1378b3, #3da1db, #84b5d1, #50a9dd, #098fe2);
+        color: #fff;
+        font-weight: bold;
+        border-radius: 20px;
+        border-bottom: 1px solid rgb(91, 48, 248);
+        margin-left: 90px;
+        margin-right: 10px;
+        transition: 1s;
+    }
+    
+    button:hover { 
+        transform: scale(1.09);
+        transition: 1s;
+    }
+
+    #area {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 32px;
+        width: 250px;
+        height: 240px;
+        border-radius: 15px;
+    }
+
+    section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: 1000px;
+        margin-bottom: 32px;
+    }
+    
+    #area_de_login {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border-radius: 15px;
+        border: 1px;
+        width: 400px;
+        height: 500px;
+        background-color: #4cc4fc4b;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        padding: 1px;
+    }
+    
+    .checkbox {
+        border-radius: 30px;
+    }
+
+    .input-group input {
+        width: 300px;
+        height: 20px;
+        padding: 10px;
+        border: 1px solid #69C5F9;
+        border-radius: 5px;
+        border-radius: 30px;
+        background-color: #69C5F9;
+    }
+    
+    
+    #area_de_login_2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        border-radius: 15px;
+        border: 1px;
+        width: 400px;
+        height: 500px;
+        background-color: #4cc4fc4b;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        padding: 1px;
+    }
+
+    #cruz2 {
+        width: 150px;
+    }
+    
+
+
+    footer {
+        width: 100%;
+        height: 100%;
+        padding: 20px;
+        color: #000000;
+        text-align: center;
+        border: 1px;
+    }
+    
+    
+    .footer-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: baseline;
+        align-items: center;
+    }   
+
+    .hospital-info {
+        text-align: center;
+    }
+    
+    .senaclogo {
+        max-width: 360px;
+        margin-left: 90px;
+    }
+    
+}
